@@ -243,6 +243,10 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
+.nav-link:hover {
+    text-decoration: underline!important;
+}
+
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
@@ -530,6 +534,9 @@ a[data-lightbox] {
 }
 
 a[data-lightbox]:hover::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -543,6 +550,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -772,7 +780,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ffffff;
     color: #000000!important;
 }
 
@@ -1035,5 +1043,9 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
     }
 }
