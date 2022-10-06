@@ -2,4 +2,4 @@
 
 Version originale : https://niscoal.github.io/P4_Lapanthere/Original
 
-Version optimisée : https://niscoal.github.io/P4_Lapanthere/Optimisé
+Version optimisée : https://niscoal.github.io/P4_Lapanthere/Optimise
